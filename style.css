@@ -11,19 +11,48 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+header{
+    padding-top: 0.5em;
+    padding-left: 0.8em;
+}
+
 h1{
     display: inline-block;
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+div.color.position{
+    margin: 2em auto 1px;
+    padding: 0.5em 3em;
+}
+.position{
+    width: 75%;
 }
 
 main{
-    width: 75%;
-    margin: 2em auto 2em;
-    padding: ;
+    margin: 1px auto 2em;
+    padding: 3em;
 }
-
 .small{
     font-size: 0.6em;    
+}
+
+.task{
+    background-color: rgb(71, 173, 241);
+    border-color: rgb(71, 173, 241);
+    color: white;
+    border-radius: 18%;
+    height: 1.5rem;
+}
+
+.section{
+    background-color:  rgb(255, 255, 255);
+    border-color:  rgb(211, 216, 219);
+    color: rgb(211, 216, 220);
+    border-radius: 18%;
+    height: 1.5rem;
 }
 
 div{
@@ -69,13 +98,19 @@ div{
 }
 
 .cerchio{
-    height: 50px;
-    width: 500px;
-    border: 1px solid rgb(108, 197, 175);
     border-radius: 100%;
     font-size: 0.7em;
     padding: 0.3em;
+}
+
+.g{
+    border: 1px solid rgb(108, 197, 175);
     color: rgb(108, 197, 175);
+}
+
+.r{
+    border: 1px solid rgb(234, 66, 55);
+    color: rgb(235, 88, 81);
 }
 
 .check{
