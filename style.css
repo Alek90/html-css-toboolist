@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 
 body{
@@ -18,10 +19,49 @@ h1{
 main{
     width: 75%;
     margin: 2em auto 2em;
+    padding: ;
 }
 
 .small{
-    font-size: 0.5em;
+    font-size: 0.6em;    
+}
+
+div{
+    padding-bottom: 0.7em;
+}
+
+.select{
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    padding: 5px;
+    border-radius: 38%;
+}
+
+.editorial{
+    background-color: rgb(69, 171, 234);
+}
+
+.goals{
+    background-color: rgb(156, 114, 228);
+}
+
+.recruiting{
+    background-color: rgb(100, 192, 169);
+}
+
+.mobile{
+    background-color: rgb(242, 158, 51);
+}
+
+.website{
+    background-color: rgb(216, 99, 161);
+}
+
+.sales{
+    background-color: rgb(176, 201, 38);
 }
 
 .down{
@@ -31,16 +71,25 @@ main{
 .cerchio{
     height: 50px;
     width: 500px;
-    border: 1px solid lawngreen;
-    border-radius: 50%;
+    border: 1px solid rgb(108, 197, 175);
+    border-radius: 100%;
+    font-size: 0.7em;
+    padding: 0.3em;
+    color: rgb(108, 197, 175);
 }
 
 .check{
-    color: lawngreen;
     font-size: 0.5em;
+    color: lawngreen;
 
 }
 
 footer{
     text-align: center;
+    padding: 0.5em;
+}
+
+.firma{
+    border: 2px solid black;
+    border-radius: 100%;
 }
